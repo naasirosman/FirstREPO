@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Zoro - Feedback</title>
-    </head>
+  </head>
 <body>
   <style>
     h1 {color:#0b485b;
@@ -11,20 +11,19 @@
         text-align: left;
         padding-left: 30px; 
     }
-    body {text-align: center;
-      font-family: Arial, Helvetica, sans-serif;
+    body { align-self: center;
+          font-family: Arial, Helvetica, sans-serif;
+          background-color: antiquewhite;
 
     } 
     .feedback-form {background-color: white;
-      color: black;
+      background: #fff;
+       box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
       border-radius: 5px;
-      border: 0px solid;
-      width: 500px;
-      margin: auto;
-      padding-top: 10px;
-      box-shadow: 5px 5px 5px 5px #8888881e;
-      box-sizing: border-box;
-       }
+      padding-top: 5px;
+      padding-bottom: 0px;
+      color: black;
+      padding-left: 10px;}
     .mission {font-size: 30px;
               text-align: left;
               padding-left: 0px;}
@@ -32,54 +31,86 @@
               text-align: left;
               padding-left: 0px;}
     .submit {background-color: lightgray;
-      border: none;
-  color: white;
-  padding: 15px 64px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  transition-duration: 0.4s;
+              border: none;
+            color: black;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            transition-duration: 0.4s;
+            width: 470px;
+            border-radius: 5px;
     }
-.submit:hover {background-color: #0b485b;
+    .submit:hover {background-color: #0b485b;
               color: white}
-  .mainblock {background-color: #0b485b;
+     .mainblock {background-color: #0b485b;
               padding: 10px 10px;
               color: white;
               padding-left: 50px;
-            padding-bottom: 400px;
-            border-radius: 10px; 
-  
-}
-  .lorem {padding-left: 50px;
-          padding-right: 50px;
-          text-align: left;
-          letter-spacing: 0px;}
+               padding-bottom: 600px;
+              border-radius: 10px;
+              padding-top: 10px;
+            }
+      .lorem {padding-left: 50px;
+              padding-right: 50px;
+              text-align: left;
+              letter-spacing: 0px;}
+        .float {
+               float: left;
+      }
+      .namesbox {
+        display: block;
+  margin-right: 10px;
+  width: 440px;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  transition: all 0.1s;
+  color: black;
+  background-color: lightgray;
+      }
+      .name {text-align: left;}
+      .namesbox:hover {border: 1px solid black;}
+      .selector {        display: block;
+  margin-right: 10px;
+  width: 460px;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  transition: all 0.1s;
+  color: black;
+  background-color: lightgray;}
+  .pad {margin: 10px;}
+
+
    
 
 
   </style>
 
-    <div class="title">
+   <!--<div class="title">
       <h1> <strong>Zoro UK Feedback</strong> </h1>
     </div>
   <br>
   <br>
-  </div>
-<div class="mainblock ">
-    <div class="about-us">
-      <h4 class="mission">Our Mission</h4>
-        </div>
-          <div style="text-align: left;"> 
+    </div>
+    <div class="mainblock">
+      <div class="float">
+      <div class="about-us">
+          <h4 class="mission">Our Mission</h4>
+      </div>
+      <div style="text-align: left;"> 
           Zoro makes it quick and easy for industries, professions and trades to get <br> the tools and equipment they need through an easy and innovative online
           experience. <br> Our exceptional delivery, and customer service, as well as our wide range of <br> competitively priced products exceed the expectations of
          modern businesses. <br>
           Zoro’s extensive range of over 1 million products includes everything from hand tools <br> to abrasives to personal protective equipment, from leading
             brands, with many available for <br> next day delivery. It has never been easier for industries, trades and professions to reliably <br> get the business-critical
           supplies they need. Our team works tirelessly to provide <br> everything you need to keep your business running online and constantly available.
-          </div>
-          <div class="confidentiality">
-            <h4 class="confidentiality-title">Confidentiality</h4>
+      </div>
+      <div class="confidentiality">
+        <h4 class="confidentiality-title">Confidentiality</h4>
               </div>
                 <div style="text-align: left;"> 
                   The Seller shall keep in strict confidence all technical or commercial know-how, <br>
@@ -89,8 +120,8 @@
                       which the Seller may obtain and the Seller shall restrict disclosure <br> of such confidential material 
                        to such of its employees, agents or subcontractors <br>  as need to know the same for the purpose of discharging the 
                         Seller's obligations <br> to Zoro UK Limited and shall ensure that such employees, agents or <br> sub-contractors are subject to like obligations of confidentiality as bind the Seller.              
-                       </div>
-    </div>
+                  </div> </div>
+ 
   <br>
    <!--  <div class="images">
       <img height="230px" src="PXL_20220726_112326429.PORTRAIT.jpg" alt="IT Team working" />
@@ -98,27 +129,27 @@
       <img height="230px" src="PXL_20220726_183210013.PORTRAIT.jpg" alt="IT team out to eat" />
     </div> -->
   <br><br><br> 
-  <div class="feedback-form ">
+  <div class="feedback-form float">
       <h3>Feedback form</h3>
       <form action="naasir.osman@zoro.co.uk">
-        <label >First name:</label> <br>
-        <input type="text" placeholder="First Name"><br><br>
-        <label>Last name:</label><br>
-        <input type="text" placeholder="Last Name"> <br><br>
-        <Label>E-mail address:</Label><br>
-        <input type="email" placeholder="Email adress"> <br><br>
-        <label for="ordered">Have you ordered from our site</label>
-        <input type="checkbox"> <br><br>
+         <label class="name pad" >First name:</label> 
+        <input class="namesbox pad" type="text" placeholder="First Name"> 
+        <label class="name pad">Last name:</label>
+        <input type="text" class="namesbox pad" placeholder="Last Name">
+        <Label class="pad">E-mail address:</Label><br>
+        <input class="namesbox pad" type="email" placeholder="Email adress"> 
+        <label class="pad" for="ordered">Have you ordered from our site</label>
+        <input type="checkbox"> <br>
         <label >What is the nature of your feedback: </label><br>
-        <select>
+        <select class="selector pad">
           <option value="select" disabled selected>Please select...</option>
           <option value="complaint">I want to complain about something...</option>
           <option value="question">I want to ask a question...</option>
           <option value="general">I want to give general feedback</option>
           <option value="other">Other...</option>
         </select> <br><br>
-        <label > What can we help you with?</label> <br>
-        <textarea placeholder="Please tell us in detail..."></textarea> <br><br>
+        <label class="pad"> What can we help you with?</label> <br>
+        <textarea class="namesbox" placeholder="Please tell us in detail..."></textarea>
 
         <label>Rate our services out of 5</label> <br>
         <input type="radio" id="1" name="rate">
@@ -127,18 +158,18 @@
         <label for="2">2</label><input type="radio" id="3" name="rate">
         <label for="3">3</label><input type="radio" id="4" name="rate">
         <label for="4">4</label><input type="radio" id="5" name="rate">
-        <label for="5">5</label>
-        <br><br>
+        <label for="5">5</label> <br>
         <input class="submit" type="submit" value="Submit">
         <br><br>
 
   
-        </form>
-
+        </form>    
     </div>
+
+  </div>
   </div>
   <br><br>
-  <div class="lorem">The Goods shall be of the best available design, of the best quality, material and workmanship, be without fault and conform in all respects with the Order and specification and/or patterns supplied or advised by Zoro UK Limited to the Seller.
+<!-- <div class="lorem">The Goods shall be of the best available design, of the best quality, material and workmanship, be without fault and conform in all respects with the Order and specification and/or patterns supplied or advised by Zoro UK Limited to the Seller.
 
     Zoro UK Limited's rights under these conditions are in addition to the statutory conditions implied in favour of Zoro UK Limited by the Sale of Goods Act 1979 (as amended).
     
@@ -150,7 +181,8 @@
     
     The Supplier shall procure that the rights afforded to Zoro UK Limited in this condition 3 together with any manufacturer's warranty (Warranty) can be assigned to the customers of Zoro UK Limited or its divisions, subsidiaries or affiliates (the Customers) and provide reasonable assistance required by Zoro UK Limited and/or its Customers in relation to any Warranty claims. Unless otherwise agreed in writing by the Parties, the Warranty shall commence upon the date of purchase of the Product by Zoro UK Limited's Customer and remain in effect for a period of not less than one year.
     
-    If any of the Supplier fails to comply with the provisions set out in condition 3, Zoro UK Limited shall be entitled to avail itself of any one or more remedies listed in condition 12.</div>
+    If any of the Supplier fails to comply with the provisions set out in condition 3, Zoro UK Limited shall be entitled to avail itself of any one or more remedies listed in condition 12.
+  </div> -->
 
     
 </body>
