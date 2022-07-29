@@ -1,39 +1,83 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Zoroo - Feedback</title>
-  </head>
-<body style="font-family: Verdana ">
-    <div class="backhome"> 
+    <title>Zoro - Feedback</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto">
+    </head>
+<body>
+  <style>
+    h1 {color: white;
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center;
+        background-color: #0b485b;
+        position: sticky;   
+    }
+    body {text-align: center;
+          font-family: "Roboto", sans-serif;
+          background-image: url("dot-grid.webp");
+
+    } 
+    .feedback-form {background-color: white;
+      color: black;
+      border-radius: 5px;
+      border: 1px solid;
+      width: 500px;
+      margin: auto;
+      padding-top: 0px;
+      box-shadow: 5px 10px #888888;
+       }
+    .mission {font-size: 30px;;}
+    .submit {background-color: #e7986f;
+      border: none;
+  color: white;
+  padding: 15px 64px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+    }
+.submit:hover {background-color: #d24816;}
+   
+
+
+  </style>
+  <!-- <div class="top"> <div class="backhome"> 
         <a href="Zoro.co.uk">Back to Home</a>
     </div>
 
     <div class="title">
-      <h1>Zoro UK Feedback</h1>
+      <h1> <strong>Zoro UK Feedback</strong> </h1>
     </div>
   <br>
   <br>
     <div class="improve">
       <a href="#feedback-form"><i>Please tell us how we can improve</i></a>
     </div>
+  </div>
   <hr>
   <br>
     <div class="about-us">
-      <h4>Our Mission</h4>
-      <p>Zoro makes it quick and easy for industries, professions and trades to get the tools and equipment they need through an easy and innovative online</p>
-      <p>experience. Our exceptional delivery, and customer service, as well as our wide range of competitively priced products exceed the expectations of</p>
-      <p>modern businesses.</p>
-      <br>
-      <p>Zoro’s extensive range of over 1 million products includes everything from hand tools to abrasives to personal protective equipment, from leading
-      </p>
-      <p>
-        brands, with many available for next day delivery. It has never been easier for industries, trades and professions to reliably get the business-critical
-      </p>
-      <p>supplies they need.
-      </p>
-      <br>
-      <p>Our team works tirelessly to provide everything you need to keep your business running online and constantly available.
-      </p>
+      <h4 class="mission">Our Mission</h4>
+        </div>
+
+       
+          <p>Zoro makes it quick and easy for industries, professions and trades to get the tools and equipment they need through an easy and innovative online</p>
+          <p>experience. Our exceptional delivery, and customer service, as well as our wide range of competitively priced products exceed the expectations of</p>
+          <p>modern businesses.</p>
+          <br>
+          <p>Zoro’s extensive range of over 1 million products includes everything from hand tools to abrasives to personal protective equipment, from leading
+          </p>
+          <p>
+            brands, with many available for next day delivery. It has never been easier for industries, trades and professions to reliably get the business-critical
+          </p>
+          <p>supplies they need.
+          </p>
+          <br>
+          <p>Our team works tirelessly to provide everything you need to keep your business running online and constantly available.
+          </p>
+      
     </div>
   <br>
     <div class="images">
@@ -41,19 +85,19 @@
       <img height="230px" src="PXL_20220726_112345546.PORTRAIT.jpg" alt="IT team having fun" />
       <img height="230px" src="PXL_20220726_183210013.PORTRAIT.jpg" alt="IT team out to eat" />
     </div>
-  <br><br><hr><br>
+  <br><br><hr><br> -->
   <div class="feedback-form">
       <h3>Feedback form</h3>
       <form action="naasir.osman@zoro.co.uk">
-        <label >First name:</label>
+        <label >First name:</label> <br>
         <input type="text" placeholder="First Name"><br><br>
-        <label>Last name:</label>
+        <label>Last name:</label><br>
         <input type="text" placeholder="Last Name"> <br><br>
-        <Label>E-mail address:</Label>
+        <Label>E-mail address:</Label><br>
         <input type="email" placeholder="Email adress"> <br><br>
         <label for="ordered">Have you ordered from our site</label>
         <input type="checkbox"> <br><br>
-        <label >What is the nature of your feedback: </label>
+        <label >What is the nature of your feedback: </label><br>
         <select>
           <option value="select" disabled selected>Please select...</option>
           <option value="complaint">I want to complain about something...</option>
@@ -73,7 +117,7 @@
         <label for="4">4</label><input type="radio" id="5" name="rate">
         <label for="5">5</label>
         <br><br>
-        <input type="submit" value="Submit">
+        <input class="submit" type="submit" value="Submit">
         <br><br>
         <hr>
   
